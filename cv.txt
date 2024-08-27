@@ -1,0 +1,38 @@
+This is my resume 
+Ria Sadhu
+	Ichlabad Purba Burdwan
+8250408698
+riasadhu4@gmail.com
+	EDUCATION
+School Name- Bidyarthi Bhavan Girl’s High School, Location - Purba Burdwan
+MONTH 2006 - MONTH 2018
+Class 1 - 12
+College Name- MUC women’s College, Location —  Purba Burdwan
+MONTH 2018 - MONTH 2021
+Completed Graduation(BA)
+More- , Internshala(online)
+March 2023 - May 2023
+Completed Basic Full Stack Web Development
+ AlmaBetter(online)
+july 2023 -  current
+Completed  Full Stack Web Development
+PROJECTS
+Project Name — Portfolio
+
+
+
+
+	SKILLS
+* * HTML
+* * Css
+* * Javascript
+* * Bootstrap
+* * React.Js
+* * Node.js
+AWARDS
+Lorem ipsum dolor sit amet Consectetuer adipiscing elit, Sed diam nonummy
+Nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Lorem ipsum dolor sit amet Consectetuer adipiscing elit, Sed diam nonummy
+Nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+LANGUAGES
+Bengali , Hindi , English

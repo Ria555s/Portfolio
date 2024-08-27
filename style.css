@@ -1,0 +1,774 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  background-color: rgb(17, 16, 17);
+  width: 10vw;
+  padding: 70px;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+height:83vh;
+}
+
+.sidebar.nav{
+
+  width: 10vw;
+  padding: 90px;
+}
+
+.sidebar nav li{
+  list-style:none;
+  font-size: 26px;
+  padding: 20px ;
+  margin:10px;
+display: inline-block;
+width: 100%;
+text-align: left;
+
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color:rgb(242, 238, 242);
+  font-weight: bolder;
+}
+.mains{
+  background:linear-gradient(to right, #8a1d73 0%, #151501 100%);
+  width: 100vw;
+  height: 103vh;
+  background-repeat: no-repeat;
+}
+  
+.container{
+  display: flex;
+}
+.infocontainer {
+    position:-ms-page;
+    background: rgba(16, 7, 7, 0.3);
+    border-radius: 25px;
+    margin: 100px;
+    margin-left: 200px;
+    height:70vh;
+    width: 50vw;
+    opacity: 10;
+  height:68vh;
+  width:77vw;
+  margin:110px auto;
+  display:flex;
+justify-content: space-around;
+}
+.devinfo{
+  display:flex ;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.hello{
+  font-size: 60px;
+  font-family: "Ubuntu", sans-serif;
+}
+.name{
+  font-size: 50px;
+  font-family: 'Edu AU VIC WA NT Hand';
+  font-weight: bold;
+}
+.about{
+  font-size:40px;
+  font-style: italic;
+}
+.moreAbout{
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 15px
+}
+.buttons-home button{
+  padding: 13px 13px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: #803f89;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  margin:8px;
+ margin-top: 41px;
+ 
+}
+button:hover {
+  background-color: #850351;
+}
+button:actives {
+  background-color: #c02938;
+  box-shadow: 0 5px #962626;
+  transform: translateY(4px);
+}
+
+img{
+  height: 68vh;
+}
+/*contact.html*/
+.contactform {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+.backgroundcolor {
+  display: flex;
+  min-height: 100vh;
+}
+body .contactform {
+  background:linear-gradient(to right, #1d21a0 10%, #dc1b0d 100%);
+  font-size: 12px;
+padding: 30px;
+width: 1220px;
+}
+
+
+.screen {
+  position:-ms-page;
+  background: rgba(16, 7, 7, 0.3);
+  border-radius: 25px;
+  margin: 100px;
+  margin-left: 200px;
+  height:70vh;
+  width: 50vw;
+  opacity: 10;
+ 
+}
+.screen:after {
+  content: '';
+  display: block;
+  position:relative;
+  top: 30px;
+  left: 50px;
+  right: 50px;
+  bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+  opacity: 2.0;
+
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #4d4d4f;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.screen-header-left {
+  margin-right: auto;
+}
+
+.screen-header-button {
+  display:inline-flex;
+  width: 8px;
+  height: 8px;
+  margin-right: 13px;
+  border-radius: 8px;
+  background: white;
+}
+.screen-header-button.close {
+  background: #ed1c6f;
+}
+
+.screen-header-button.maximize {
+  background: #e8e925;
+}
+
+.screen-header-button.minimize {
+  background: #74c54f;
+}
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
+
+.screen-body {
+  display: flex;
+}
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction:column;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #eded07;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background:  #eded07;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 10px;
+  color: #a5a5a5;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+.app-form-group.message {
+  margin-top: 20px;
+}
+
+ app-form-group.buttons {
+  padding: 10px;
+  text-align:center;
+ margin: 9px;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 18px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form .app-form-group .buttons {
+  background: none;
+  border: none;
+  color: #ce7c24;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+
+}
+.app-form-buttons{
+padding: 12px 12px;
+font-size: 18px;
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #ffffff;
+background-color: #cdba0d;
+border: none;
+border-radius: 10px;
+box-shadow: 0 7px #999;
+margin:8px;
+margin-top: 41px;
+margin-left:120px;
+}
+.app-form-button:hover  {
+  color: #d3d0d1ea;
+}
+.dribbble {.flip-card-2-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-2-back {
+  background-color: rgb(24, 92, 160);
+  color: white;
+  transform: rotateY(170deg);
+  width: 20vw;
+  height: 40vh;
+}
+.flip-card-2-front img{
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+
+}
+.main contactform{
+  background:none;
+  width: 100vw;
+  height: 103vh;
+}
+social-media{
+  align-items: center;
+  margin-left:100px;
+  padding-left: 50px;
+  
+}
+.fa-linkedin{
+text-decoration: none;
+font-size: 30px;
+color:rgb(81, 219, 46);
+padding-left: 20px;
+}
+.fa-instagram{
+  text-decoration: none;
+  font-size: 30px;
+color:rgb(81, 219, 46);
+padding-left: 20px;
+}
+.fa-facebook{
+  text-decoration: none;
+  font-size: 30px;
+color:rgb(81, 219, 46);
+padding-left: 20px;
+}
+.fa-youtube{
+  text-decoration: none;
+  font-size: 30px;
+color:rgb(81, 219, 46);
+padding-left: 20px;
+}
+
+/*intro.html*/
+.intro{
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform:translate(-60%,-60%);
+  text-align:center;
+  color:rgb(19, 18, 18);
+  width:40vw;
+  font-size: 25px;
+}
+.intro h2{
+font-family: "Oswald", sans-serif;
+font-weight: bolder;
+font-stretch: expanded;
+font-style: italic;
+margin: 10px;
+text-align: center;
+padding-left: 20px;
+padding-top: 180px;
+}
+.intro p{
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  text-justify: inter-cluster;
+ text-align:center;
+
+
+}
+.image-intro{
+  height:100vh;
+  margin-right:45px;
+  width:120%;
+}
+/*skill.html*/
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+justify-content: center;  
+
+}
+.skillcontainer{
+  background:linear-gradient(to right, #10a715 0%, #067a96 100%);
+  width: 100%;
+}
+.main-section{
+  position:-ms-page;
+  background: rgba(16, 7, 7, 0.3);
+  border-radius: 25px;
+  margin: 100px;
+  margin-left: 200px;
+  height:70vh;
+  width: 50vw;
+  opacity: 10;
+
+}
+.container-1{
+  padding-top: 40px;
+}
+.languages-icon{
+  margin-top: 20px;
+
+}
+.container-1 h2{
+  margin:20px;
+  justify-content: center;  
+  text-align: center;
+  position:relative;
+  padding-left: 205px;
+  height:100%;
+  width:50%;
+  padding-top: 10px;
+}
+
+.container-1{
+ justify-content:center;
+position: absolute;
+top:30px;
+margin-left: 70px;
+color: rgb(255, 251, 0);
+font-size: 25px;
+}
+.fa-html5{
+  color: #dc3a0d;
+  background-color: whitesmoke;
+  padding-right: 0px;
+}
+.fa-css3-alt{
+  color: blue;
+  background-color: whitesmoke;
+}
+.fa-bootstrap{
+  color: rgb(75, 8, 176);
+  background-color: whitesmoke;
+}
+.brands fa-js{
+  color: yellow;
+ 
+}
+.fa-react{
+  color:rgb(9, 161, 216);
+  background-color: whitesmoke;
+}
+.fa-database{
+  color: green;
+  background-color: whitesmoke;
+}
+.fa-php{
+  color: #382662;
+  background-color: whitesmoke;
+}
+.container-1 theskills{
+ margin-top: 120px;
+  margin-left: 70px;
+  padding-left: 20px;
+  font-size: 40px;
+display: flex;
+justify-content: space-evenly;
+transform: translate(-50% , -50%);
+margin: 0;
+padding: 0;
+top:50%;
+left:50%;
+}
+
+.moreskills{
+margin-left:50px;
+text-align: right;
+  
+}
+
+.skills1{
+  height:15px;
+  width:300px;
+  background-color:rgb(32, 154, 198);
+  font-size: 13px;
+}
+.skills2{
+  height:15px;
+  width:250px;
+  background-color:#62c61aea;
+  font-size: 13px;
+}
+.skills3{
+  height:15px;
+  width:200px;
+  background-color:rgb(32, 154, 198);
+  font-size: 13px;
+}
+.skills4{
+  height:15px;
+  width:150px;
+  background-color: #62c61aea;
+  font-size: 13px;
+}
+.skills5{
+  height:15px;
+  width:130px;
+  background-color:rgb(32, 154, 198);
+  font-size: 13px;
+}
+.skills6{
+  height:15px;
+  width:100px;
+  background-color: #62c61aea;
+  font-size: 13px;
+}
+.skills7{
+  height:15px;
+  width:80px;
+  background-color: rgb(32, 154, 198);
+  font-size: 13px;
+}
+
+/*project.html*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  background-color: rgb(206, 205, 227);
+  width: 10vw;
+  padding: 70px;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+height:83vh;
+}
+.sidebar nav li{
+  list-style:none;
+  font-size: 26px;
+  padding: 20px ;
+  margin:10px;
+display: inline-block;
+width: 150%;
+text-align: left;
+
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color:rgb(9, 8, 9);
+  font-weight: bolder;
+}
+.main-project{
+  background:linear-gradient(to right, #d28f14 0%, #0da1dc 100%);
+  width: 100vw;
+  height: 103vh;
+  background-repeat: no-repeat;
+}
+.project-container{
+  position:-ms-page;
+  background: rgba(16, 7, 7, 0.3);
+  border-radius: 25px;
+  margin: 100px;
+  margin-left: 200px;
+  height:70vh;
+  width: 50vw;
+  opacity: 10;
+height:68vh;
+width:77vw;
+margin:110px auto;
+display:flex;
+justify-content: space-around;
+}
+.heading h2{
+  font-family: "Ubuntu", sans-serif;
+  font-size:30px;
+  padding-top: 20px;
+  flex-direction: column;
+  position: relative;
+  color: #232313;
+  padding-left: 540px;
+  text-decoration: underline;
+  color: #1f11dc;
+
+}
+.flip-card-1 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+padding-top: 85px;
+padding-left: 10px;
+border-radius: 15px;
+
+}
+.flip-card-1-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+.flip-card-1:hover .flip-card-1-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-1-front, .flip-card-1-back {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-1-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-1-back {
+  background-color: rgb(124, 69, 214);
+  color: white;
+  transform: rotateY(170deg);
+  width: 20vw;
+  height: 30vh;
+padding-top: 50px;
+}
+.flip-card-1-front img{
+  border-radius: 13px;
+  padding-top: 10px;
+ 
+}
+
+/*card2*/
+.flip-card-2 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+padding-top: 85px;
+border-radius: 15px;
+}
+.flip-card-2-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+.flip-card-2:hover .flip-card-2-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-2-front, .flip-card-2-back {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-2-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-2-back {
+  background-color: rgb(217, 230, 81);
+  color: white;
+  transform: rotateY(170deg);
+  width: 20vw;
+  height: 30vh;
+  padding-top: 50px;
+}
+.flip-card-2-front img{
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-right: 50px;
+}
+/*card3*/
+.flip-card-3 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+padding-top: 85px;
+border-radius: 15px;
+}
+.flip-card-3-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+.flip-card-3:hover .flip-card-3-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-3-front, .flip-card-3-back {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+ }
+.flip-card-3-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-3-back {
+  background-color: rgb(24, 160, 85);
+  color: white;
+  transform: rotateY(170deg);
+  width: 20vw;
+  height: 30vh;
+  padding-top: 50px;
+}
+.flip-card-3-front img{
+  border-radius: 15px;
+padding-top: 10px;
+}
